@@ -12,3 +12,10 @@
     this.logger.log('Executing optimizeSlowSqlAggregateQueryInBookingMetricsController');
     return this.service.optimizeSlowSqlAggregateQueryInBookingMetricsController(dto);
   }
+
+  // Added for: fix: optimize slow sql aggregate query in booking metrics controller
+  @Post('controller')
+  async optimizeSlowSqlAggregateQueryInBookingMetricsController(@Body() dto: any) {
+    this.logger.log('Executing optimizeSlowSqlAggregateQueryInBookingMetricsController');
+    return this.service.optimizeSlowSqlAggregateQueryInBookingMetricsController(dto);
+  }
