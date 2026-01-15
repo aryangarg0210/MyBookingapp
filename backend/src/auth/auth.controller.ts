@@ -19,3 +19,10 @@
     this.logger.log('Executing fixIncorrectRegexStringValidatorInUserAuthDto');
     return this.service.fixIncorrectRegexStringValidatorInUserAuthDto(dto);
   }
+
+  // Added for: fix: resolve nestjs circular dependency user module imports
+  @Post('imports')
+  async resolveNestjsCircularDependencyUserModuleImports(@Body() dto: any) {
+    this.logger.log('Executing resolveNestjsCircularDependencyUserModuleImports');
+    return this.service.resolveNestjsCircularDependencyUserModuleImports(dto);
+  }
