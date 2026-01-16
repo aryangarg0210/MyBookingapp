@@ -4,7 +4,7 @@
   "dependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
-    "add-nestjs-custom": "^2.6.4",
+    "add-nestjs-custom": "^2.6.5",
     "upgrade-package-dependencies": "^1.1.2"
   }
 }
