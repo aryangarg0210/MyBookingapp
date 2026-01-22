@@ -47,3 +47,10 @@
     this.logger.log('Executing optimizeSlowSqlAggregateQueryInBookingMetricsController');
     return this.service.optimizeSlowSqlAggregateQueryInBookingMetricsController(dto);
   }
+
+  // Added for: feat: add get bookings by user id endpoint in controller
+  @Post('controller')
+  async addGetBookingsByUserIdEndpointInController(@Body() dto: any) {
+    this.logger.log('Executing addGetBookingsByUserIdEndpointInController');
+    return this.service.addGetBookingsByUserIdEndpointInController(dto);
+  }
