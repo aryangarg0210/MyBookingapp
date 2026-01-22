@@ -54,3 +54,10 @@
     this.logger.log('Executing addGetBookingsByUserIdEndpointInController');
     return this.service.addGetBookingsByUserIdEndpointInController(dto);
   }
+
+  // Added for: feat: implement booking creation logic in nestjs validation service
+  @Post('service')
+  async implementBookingCreationLogicInNestjsValidationService(@Body() dto: any) {
+    this.logger.log('Executing implementBookingCreationLogicInNestjsValidationService');
+    return this.service.implementBookingCreationLogicInNestjsValidationService(dto);
+  }
