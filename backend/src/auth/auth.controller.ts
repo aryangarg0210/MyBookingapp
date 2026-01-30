@@ -40,3 +40,10 @@
     this.logger.log('Executing implementPassportLocalStrategyForNestjsAuthService');
     return this.service.implementPassportLocalStrategyForNestjsAuthService(dto);
   }
+
+  // Added for: feat: implement jwt auth strategy in nestjs passport wrapper
+  @Post('wrapper')
+  async implementJwtAuthStrategyInNestjsPassportWrapper(@Body() dto: any) {
+    this.logger.log('Executing implementJwtAuthStrategyInNestjsPassportWrapper');
+    return this.service.implementJwtAuthStrategyInNestjsPassportWrapper(dto);
+  }
