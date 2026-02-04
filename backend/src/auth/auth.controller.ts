@@ -61,3 +61,10 @@
     this.logger.log('Executing implementJwtAuthStrategyInNestjsPassportWrapper');
     return this.service.implementJwtAuthStrategyInNestjsPassportWrapper(dto);
   }
+
+  // Added for: fix: resolve nestjs circular dependency user module imports
+  @Post('imports')
+  async resolveNestjsCircularDependencyUserModuleImports(@Body() dto: any) {
+    this.logger.log('Executing resolveNestjsCircularDependencyUserModuleImports');
+    return this.service.resolveNestjsCircularDependencyUserModuleImports(dto);
+  }
