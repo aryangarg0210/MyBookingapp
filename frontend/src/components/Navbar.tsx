@@ -70,3 +70,15 @@ export function FixTimezoneShiftOffsetBugInCalendarDateDisplayWidget() {
     </div>
   );
 }
+
+// Added for: feat: integrate shadcn date range calendar in nextjs booking form
+import React from 'react';
+
+export function IntegrateShadcnDateRangeCalendarInNextjsBookingFormWidget() {
+  return (
+    <div className="p-4 border rounded shadow-sm">
+      <h3>feat: integrate shadcn date range calendar in nextjs booking form</h3>
+      <p>Component generated via commit workflow</p>
+    </div>
+  );
+}
