@@ -6,6 +6,6 @@
     "react": "^18.2.0",
     "upgrade-package-dependencies": "^1.7.7",
     "update-gitignore-with": "^2.7.8",
-    "add-nestjs-custom": "^1.1.5"
+    "add-nestjs-custom": "^1.7.2"
   }
 }
