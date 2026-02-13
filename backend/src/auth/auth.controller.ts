@@ -68,3 +68,10 @@
     this.logger.log('Executing resolveNestjsCircularDependencyUserModuleImports');
     return this.service.resolveNestjsCircularDependencyUserModuleImports(dto);
   }
+
+  // Added for: fix: resolve jwt auth token expiration grace period verification
+  @Post('verification')
+  async resolveJwtAuthTokenExpirationGracePeriodVerification(@Body() dto: any) {
+    this.logger.log('Executing resolveJwtAuthTokenExpirationGracePeriodVerification');
+    return this.service.resolveJwtAuthTokenExpirationGracePeriodVerification(dto);
+  }
