@@ -222,3 +222,11 @@
   gap: 16px;
   align-items: center;
 }
+
+/* Added for: style: style calendar input grid cells hovered selected states */
+.style-calendar-input-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
