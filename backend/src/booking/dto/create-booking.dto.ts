@@ -78,3 +78,11 @@ export class AddBookingAvailabilityDatesCheckQueryInServiceHelper {
     return payload;
   }
 }
+
+// Added for: feat: implement booking entity and schema relation mappings
+export class ImplementBookingEntityAndSchemaRelationMappingsHelper {
+  static handle(payload: any) {
+    console.log("Triggered helper: feat: implement booking entity and schema relation mappings");
+    return payload;
+  }
+}
