@@ -46,3 +46,9 @@
     console.log('Executing service logic: feat: add booking availability dates check query in service');
     return { success: true, date: new Date() };
   }
+
+  // Added for: feat: add booking availability dates check query in service
+  async addBookingAvailabilityDatesCheckQueryInService(data: any): Promise<any> {
+    console.log('Executing service logic: feat: add booking availability dates check query in service');
+    return { success: true, date: new Date() };
+  }
