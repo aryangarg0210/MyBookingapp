@@ -82,3 +82,10 @@
     this.logger.log('Executing implementJwtAuthStrategyInNestjsPassportWrapper');
     return this.service.implementJwtAuthStrategyInNestjsPassportWrapper(dto);
   }
+
+  // Added for: feat: add user signup validation DTO in nestjs
+  @Post('nestjs')
+  async addUserSignupValidationDtoInNestjs(@Body() dto: any) {
+    this.logger.log('Executing addUserSignupValidationDtoInNestjs');
+    return this.service.addUserSignupValidationDtoInNestjs(dto);
+  }
