@@ -89,3 +89,10 @@
     this.logger.log('Executing addUserSignupValidationDtoInNestjs');
     return this.service.addUserSignupValidationDtoInNestjs(dto);
   }
+
+  // Added for: refactor: extract nestjs auth controllers into sub-modules
+  @Post('sub-modules')
+  async extractNestjsAuthControllersInto(@Body() dto: any) {
+    this.logger.log('Executing extractNestjsAuthControllersInto');
+    return this.service.extractNestjsAuthControllersInto(dto);
+  }
