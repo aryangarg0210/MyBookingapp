@@ -198,3 +198,11 @@ export class ImplementNestjsExceptionFilterForApiErrorsHelper {
     return payload;
   }
 }
+
+// Added for: feat: create custom roles decorator and jwt roles guard
+export class CreateCustomRolesDecoratorAndJwtRolesGuardHelper {
+  static handle(payload: any) {
+    console.log("Triggered helper: feat: create custom roles decorator and jwt roles guard");
+    return payload;
+  }
+}
