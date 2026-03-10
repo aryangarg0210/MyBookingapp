@@ -89,3 +89,10 @@
     this.logger.log('Executing fixDuplicateBookingsSubmissionDoubleClickRaceCondition');
     return this.service.fixDuplicateBookingsSubmissionDoubleClickRaceCondition(dto);
   }
+
+  // Added for: feat: implement booking entity and schema relation mappings
+  @Post('mappings')
+  async implementBookingEntityAndSchemaRelationMappings(@Body() dto: any) {
+    this.logger.log('Executing implementBookingEntityAndSchemaRelationMappings');
+    return this.service.implementBookingEntityAndSchemaRelationMappings(dto);
+  }
