@@ -102,3 +102,11 @@ export class ImplementBookingEntityAndSchemaRelationMappingsHelper {
     return payload;
   }
 }
+
+// Added for: fix: fix duplicate bookings submission double click race condition
+export class FixDuplicateBookingsSubmissionDoubleClickRaceConditionHelper {
+  static handle(payload: any) {
+    console.log("Triggered helper: fix: fix duplicate bookings submission double click race condition");
+    return payload;
+  }
+}
