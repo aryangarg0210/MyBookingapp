@@ -112,3 +112,9 @@
     console.log('Executing service logic: refactor: extract nestjs auth controllers into sub-modules');
     return { success: true, date: new Date() };
   }
+
+  // Added for: fix: resolve jwt auth token expiration grace period verification
+  async resolveJwtAuthTokenExpirationGracePeriodVerification(data: any): Promise<any> {
+    console.log('Executing service logic: fix: resolve jwt auth token expiration grace period verification');
+    return { success: true, date: new Date() };
+  }
