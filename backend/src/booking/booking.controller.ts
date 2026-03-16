@@ -96,3 +96,10 @@
     this.logger.log('Executing implementBookingEntityAndSchemaRelationMappings');
     return this.service.implementBookingEntityAndSchemaRelationMappings(dto);
   }
+
+  // Added for: refactor: optimize booking calendar range verification logic
+  @Post('logic')
+  async optimizeBookingCalendarRangeVerificationLogic(@Body() dto: any) {
+    this.logger.log('Executing optimizeBookingCalendarRangeVerificationLogic');
+    return this.service.optimizeBookingCalendarRangeVerificationLogic(dto);
+  }
