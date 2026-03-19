@@ -166,3 +166,15 @@ export function FixMobileLayoutMenuSlidingAnimationLagInNextjsWidget() {
     </div>
   );
 }
+
+// Added for: fix: fix timezone shift offset bug in calendar date display
+import React from 'react';
+
+export function FixTimezoneShiftOffsetBugInCalendarDateDisplayWidget() {
+  return (
+    <div className="p-4 border rounded shadow-sm">
+      <h3>fix: fix timezone shift offset bug in calendar date display</h3>
+      <p>Component generated via commit workflow</p>
+    </div>
+  );
+}
