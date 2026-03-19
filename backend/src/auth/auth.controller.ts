@@ -131,3 +131,10 @@
     this.logger.log('Executing createUserDatabaseEntityAndSchemaModelDefinition');
     return this.service.createUserDatabaseEntityAndSchemaModelDefinition(dto);
   }
+
+  // Added for: feat: implement jwt auth strategy in nestjs passport wrapper
+  @Post('wrapper')
+  async implementJwtAuthStrategyInNestjsPassportWrapper(@Body() dto: any) {
+    this.logger.log('Executing implementJwtAuthStrategyInNestjsPassportWrapper');
+    return this.service.implementJwtAuthStrategyInNestjsPassportWrapper(dto);
+  }
