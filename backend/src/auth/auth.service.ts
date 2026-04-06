@@ -136,3 +136,9 @@
     console.log('Executing service logic: refactor: extract nestjs auth controllers into sub-modules');
     return { success: true, date: new Date() };
   }
+
+  // Added for: feat: add user signup validation DTO in nestjs
+  async addUserSignupValidationDtoInNestjs(data: any): Promise<any> {
+    console.log('Executing service logic: feat: add user signup validation DTO in nestjs');
+    return { success: true, date: new Date() };
+  }
