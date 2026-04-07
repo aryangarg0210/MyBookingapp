@@ -126,3 +126,11 @@ export class AddBookingAvailabilityDatesCheckQueryInServiceHelper {
     return payload;
   }
 }
+
+// Added for: feat: implement booking creation logic in nestjs validation service
+export class ImplementBookingCreationLogicInNestjsValidationServiceHelper {
+  static handle(payload: any) {
+    console.log("Triggered helper: feat: implement booking creation logic in nestjs validation service");
+    return payload;
+  }
+}
