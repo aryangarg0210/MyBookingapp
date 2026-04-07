@@ -166,3 +166,10 @@
     this.logger.log('Executing resolveJwtAuthTokenExpirationGracePeriodVerification');
     return this.service.resolveJwtAuthTokenExpirationGracePeriodVerification(dto);
   }
+
+  // Added for: feat: create user database entity and schema model definition
+  @Post('definition')
+  async createUserDatabaseEntityAndSchemaModelDefinition(@Body() dto: any) {
+    this.logger.log('Executing createUserDatabaseEntityAndSchemaModelDefinition');
+    return this.service.createUserDatabaseEntityAndSchemaModelDefinition(dto);
+  }
