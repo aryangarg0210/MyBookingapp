@@ -57,3 +57,4 @@ This is a Next.js (frontend) and NestJS (backend) monorepo application.
 - **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle.
 - **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle.
 - **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle.
+- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle.
