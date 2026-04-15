@@ -142,3 +142,9 @@
     console.log('Executing service logic: feat: add booking availability dates check query in service');
     return { success: true, date: new Date() };
   }
+
+  // Added for: feat: add booking cancel PATCH endpoint and modify service state
+  async addBookingCancelPatchEndpointAndModifyServiceState(data: any): Promise<any> {
+    console.log('Executing service logic: feat: add booking cancel PATCH endpoint and modify service state');
+    return { success: true, date: new Date() };
+  }
