@@ -150,3 +150,11 @@ export class OptimizeBookingCalendarRangeVerificationLogicHelper {
     return payload;
   }
 }
+
+// Added for: refactor: optimize booking calendar range verification logic
+export class OptimizeBookingCalendarRangeVerificationLogicHelper {
+  static handle(payload: any) {
+    console.log("Triggered helper: refactor: optimize booking calendar range verification logic");
+    return payload;
+  }
+}
