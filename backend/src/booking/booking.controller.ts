@@ -173,3 +173,10 @@
     this.logger.log('Executing addBookingAvailabilityDatesCheckQueryInService');
     return this.service.addBookingAvailabilityDatesCheckQueryInService(dto);
   }
+
+  // Added for: feat: implement booking creation logic in nestjs validation service
+  @Post('service')
+  async implementBookingCreationLogicInNestjsValidationService(@Body() dto: any) {
+    this.logger.log('Executing implementBookingCreationLogicInNestjsValidationService');
+    return this.service.implementBookingCreationLogicInNestjsValidationService(dto);
+  }
