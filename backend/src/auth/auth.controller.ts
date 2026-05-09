@@ -236,3 +236,10 @@
     this.logger.log('Executing createUserDatabaseEntityAndSchemaModelDefinition');
     return this.service.createUserDatabaseEntityAndSchemaModelDefinition(dto);
   }
+
+  // Added for: refactor: extract nestjs auth controllers into sub-modules
+  @Post('sub-modules')
+  async extractNestjsAuthControllersInto(@Body() dto: any) {
+    this.logger.log('Executing extractNestjsAuthControllersInto');
+    return this.service.extractNestjsAuthControllersInto(dto);
+  }
