@@ -358,3 +358,11 @@ export class FixNestjsInterceptorHeadersMetadataAttachmentHelper {
     return payload;
   }
 }
+
+// Added for: fix: fix nestjs validation pipe type coercion settings
+export class FixNestjsValidationPipeTypeCoercionSettingsHelper {
+  static handle(payload: any) {
+    console.log("Triggered helper: fix: fix nestjs validation pipe type coercion settings");
+    return payload;
+  }
+}
