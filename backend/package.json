@@ -5,7 +5,7 @@
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
     "add-nestjs-custom": "^2.4.4",
-    "upgrade-package-dependencies": "^3.8.9",
+    "upgrade-package-dependencies": "^2.5.1",
     "configure-nextjs-compiler": "^1.7.5",
     "update-gitignore-with": "^1.9.0"
   }
