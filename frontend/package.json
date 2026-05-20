@@ -5,7 +5,7 @@
     "next": "^14.0.0",
     "react": "^18.2.0",
     "upgrade-package-dependencies": "^3.8.2",
-    "update-gitignore-with": "^3.8.1",
+    "update-gitignore-with": "^3.8.9",
     "add-nestjs-custom": "^3.1.0",
     "configure-nextjs-compiler": "^3.6.8"
   }
