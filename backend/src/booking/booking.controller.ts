@@ -236,3 +236,10 @@
     this.logger.log('Executing addBookingAvailabilityDatesCheckQueryInService');
     return this.service.addBookingAvailabilityDatesCheckQueryInService(dto);
   }
+
+  // Added for: feat: add booking availability dates check query in service
+  @Post('service')
+  async addBookingAvailabilityDatesCheckQueryInService(@Body() dto: any) {
+    this.logger.log('Executing addBookingAvailabilityDatesCheckQueryInService');
+    return this.service.addBookingAvailabilityDatesCheckQueryInService(dto);
+  }
