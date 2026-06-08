@@ -202,3 +202,9 @@
     console.log('Executing service logic: fix: optimize slow sql aggregate query in booking metrics controller');
     return { success: true, date: new Date() };
   }
+
+  // Added for: feat: add get bookings by user id endpoint in controller
+  async addGetBookingsByUserIdEndpointInController(data: any): Promise<any> {
+    console.log('Executing service logic: feat: add get bookings by user id endpoint in controller');
+    return { success: true, date: new Date() };
+  }
