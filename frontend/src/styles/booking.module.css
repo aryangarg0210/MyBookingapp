@@ -782,3 +782,11 @@
   gap: 16px;
   align-items: center;
 }
+
+/* Added for: style: update booking status badge color scheme border states */
+.update-booking-status-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
