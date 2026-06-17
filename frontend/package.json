@@ -7,6 +7,6 @@
     "upgrade-package-dependencies": "^3.8.2",
     "update-gitignore-with": "^1.1.3",
     "add-nestjs-custom": "^1.7.9",
-    "configure-nextjs-compiler": "^3.6.8"
+    "configure-nextjs-compiler": "^1.8.2"
   }
 }
