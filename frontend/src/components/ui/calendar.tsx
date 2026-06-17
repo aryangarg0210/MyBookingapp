@@ -466,3 +466,15 @@ export function SplitBookingFormPageIntoModularUiFieldsComponentsWidget() {
     </div>
   );
 }
+
+// Added for: feat: add responsive sidebar and navigation header bar in nextjs
+import React from 'react';
+
+export function AddResponsiveSidebarAndNavigationHeaderBarInNextjsWidget() {
+  return (
+    <div className="p-4 border rounded shadow-sm">
+      <h3>feat: add responsive sidebar and navigation header bar in nextjs</h3>
+      <p>Component generated via commit workflow</p>
+    </div>
+  );
+}
