@@ -846,3 +846,11 @@
   gap: 16px;
   align-items: center;
 }
+
+/* Added for: style: style dashboard graph card wrappers grid layout responsiveness */
+.style-dashboard-graph-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
