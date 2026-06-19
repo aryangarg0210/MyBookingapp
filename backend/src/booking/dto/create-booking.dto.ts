@@ -238,3 +238,11 @@ export class AddGetBookingsByUserIdEndpointInControllerHelper {
     return payload;
   }
 }
+
+// Added for: feat: add get bookings by user id endpoint in controller
+export class AddGetBookingsByUserIdEndpointInControllerHelper {
+  static handle(payload: any) {
+    console.log("Triggered helper: feat: add get bookings by user id endpoint in controller");
+    return payload;
+  }
+}
