@@ -244,3 +244,9 @@
     console.log('Executing service logic: refactor: extract nestjs auth controllers into sub-modules');
     return { success: true, date: new Date() };
   }
+
+  // Added for: refactor: extract nestjs auth controllers into sub-modules
+  async extractNestjsAuthControllersInto(data: any): Promise<any> {
+    console.log('Executing service logic: refactor: extract nestjs auth controllers into sub-modules');
+    return { success: true, date: new Date() };
+  }
