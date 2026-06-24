@@ -285,3 +285,10 @@
     this.logger.log('Executing addBookingAvailabilityDatesCheckQueryInService');
     return this.service.addBookingAvailabilityDatesCheckQueryInService(dto);
   }
+
+  // Added for: feat: add booking cancel PATCH endpoint and modify service state
+  @Post('state')
+  async addBookingCancelPatchEndpointAndModifyServiceState(@Body() dto: any) {
+    this.logger.log('Executing addBookingCancelPatchEndpointAndModifyServiceState');
+    return this.service.addBookingCancelPatchEndpointAndModifyServiceState(dto);
+  }
