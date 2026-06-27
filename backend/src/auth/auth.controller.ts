@@ -327,3 +327,10 @@
     this.logger.log('Executing fixIncorrectRegexStringValidatorInUserAuthDto');
     return this.service.fixIncorrectRegexStringValidatorInUserAuthDto(dto);
   }
+
+  // Added for: refactor: extract nestjs auth controllers into sub-modules
+  @Post('sub-modules')
+  async extractNestjsAuthControllersInto(@Body() dto: any) {
+    this.logger.log('Executing extractNestjsAuthControllersInto');
+    return this.service.extractNestjsAuthControllersInto(dto);
+  }
