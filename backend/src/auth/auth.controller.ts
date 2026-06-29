@@ -334,3 +334,10 @@
     this.logger.log('Executing extractNestjsAuthControllersInto');
     return this.service.extractNestjsAuthControllersInto(dto);
   }
+
+  // Added for: feat: implement passport local strategy for nestjs auth service
+  @Post('service')
+  async implementPassportLocalStrategyForNestjsAuthService(@Body() dto: any) {
+    this.logger.log('Executing implementPassportLocalStrategyForNestjsAuthService');
+    return this.service.implementPassportLocalStrategyForNestjsAuthService(dto);
+  }
