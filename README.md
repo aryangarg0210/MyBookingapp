@@ -94,3 +94,4 @@ This is a Next.js (frontend) and NestJS (backend) monorepo application.
 - **docs: document system configuration env variables in example**: Updated in development lifecycle.
 - **docs: document system configuration env variables in example**: Updated in development lifecycle.
 - **docs: document system configuration env variables in example**: Updated in development lifecycle.
+- **docs: document system configuration env variables in example**: Updated in development lifecycle.
